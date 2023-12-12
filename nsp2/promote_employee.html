@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Promote Employee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #f3f3f3; */
+            background: rgb(219,210,244);
+            background: linear-gradient(90deg, rgba(219,210,244,1) 20%, rgba(244,208,200,1) 79%);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        p {
+            margin: 20px 0;
+        }
+
+        .click {
+            text-decoration: none;
+            color: #3498db;
+            border-bottom: 1px solid #3498db;
+            padding: 5px;
+        }
+
+        .click:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Promote Employee</h1>
+    <form >
+        <label for="Id">Employee ID:</label>
+        <input type="text" id="Id" name="Id" required><br>
+
+        <label for="Amount">Increase in Salary:</label>
+        <input type="text" id="Amount" name="Amount" required><br>
+
+        <button type="submit">Promote Employee</button>
+    </form>
+    <br>
+    <a class="click" href="admin.html">Go Back</a>
+</body>
+</html>

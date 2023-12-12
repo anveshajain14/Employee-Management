@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Employee</title>
+    <style>
+/* Style for the body */
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f2f2f2;  */
+  background: rgb(234,241,160);
+  background: linear-gradient(90deg, rgba(234,241,160,1) 20%, rgba(205,252,182,1) 79%);
+  text-align: center;
+}
+
+h1 {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+/* Style for the form container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #ffffff; /* Background color */
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for form elements */
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  color: #333; /* Text color */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+  background-color: #3498db; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+button[type="submit"]:hover {
+  background-color: #2980b9; /* Darker background color on hover */
+}
+
+/* Style for the "Go Back" link */
+a {
+  text-decoration: none;
+  color: #3498db; /* Link color */
+}
+
+/* Style for the "Go Back" link on hover */
+a:hover {
+  text-decoration: underline;
+}
+
+.click {
+            text-decoration: none;
+            color: #3498db;
+            border-bottom: 1px solid #3498db;
+            padding: 5px;
+        }
+
+        .click:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add Employee</h1>
+    <form >
+        <label for="Id">Employee ID:</label>
+        <input type="text" id="Id" name="Id" required><br>
+
+        <label for="Name">Employee Name:</label>
+        <input type="text" id="Name" name="Name" required><br>
+
+        <label for="Post">Employee Post:</label>
+        <input type="text" id="Post" name="Post" required><br>
+
+        <label for="Salary">Employee Salary:</label>
+        <input type="text" id="Salary" name="Salary" required><br>
+
+        <button type="submit">Add Employee</button>
+    </form>
+    <center>
+      <br>
+        <a class="click" href="manger.html">Go Back</a>
+    </center>
+</body>
+</html>
